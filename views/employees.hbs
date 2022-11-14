@@ -1,0 +1,35 @@
+<div class="row">
+    <div class="col-md-12">
+        <h2>Employees</h2>
+        <hr />
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Employee&nbsp;Num</th>
+                        <th>Full Name</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Manager&nbsp;ID</th>
+                        <th>Status</th>
+                        <th>Department</th>
+                        <th>Hired On</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each students}}
+                    <tr>
+                        
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {{#unless employees}}
+    <div class="col-md-12 text-center">
+        <strong>{{message}}</strong> 
+    </div>
+    {{/unless}}
+</div>
+
